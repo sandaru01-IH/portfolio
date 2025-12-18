@@ -93,7 +93,7 @@ export default function Testimonials() {
                 ))}
               </div>
               <blockquote className="text-xl sm:text-2xl text-dark-800 mb-8 leading-relaxed">
-                "{testimonials[currentIndex].feedback}"
+                &ldquo;{testimonials[currentIndex].feedback}&rdquo;
               </blockquote>
               <div className="flex items-center gap-4">
                 <div className="w-12 h-12 rounded-full bg-dark-200 flex items-center justify-center text-dark-900 font-semibold">

@@ -118,7 +118,7 @@ function FounderFeature({ founder, index, isReversed = false }: FounderFeaturePr
           <div className="relative pl-6 border-l-2 border-dark-200">
             {/* Floating quote mark */}
             <span className="absolute -left-3 top-0 text-6xl md:text-7xl font-serif text-dark-200 leading-none" style={{ fontFamily: 'Georgia, serif' }}>
-              "
+              &ldquo;
             </span>
             <p className="text-xl md:text-2xl italic text-dark-700 leading-relaxed relative z-10" style={{ lineHeight: '1.5' }}>
               {founder.quote}
@@ -261,7 +261,7 @@ export default function About() {
               services.
             </p>
             <p className="text-lg text-dark-600" style={{ lineHeight: '1.6' }}>
-              Over the years, we've completed 630+ projects for clients across various industries,
+              Over the years, we&apos;ve completed 630+ projects for clients across various industries,
               helping them unlock the power of their data and build innovative solutions that drive
               growth. Our team of 17 experts combines deep technical expertise with business
               acumen to deliver results that matter.
@@ -289,7 +289,7 @@ export default function About() {
                 Co-Founders
               </h2>
               <p className="text-lg md:text-xl text-dark-600 max-w-2xl mx-auto" style={{ lineHeight: '1.6' }}>
-                The leadership behind AlphaGrid's data, AI, and software delivery.
+                The leadership behind AlphaGrid&apos;s data, AI, and software delivery.
               </p>
             </motion.div>
 
