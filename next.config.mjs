@@ -1,10 +1,9 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: "export",
-  basePath: "/portfolio",
-  assetPrefix: "/portfolio/",
+  // For Vercel: Remove basePath and assetPrefix (deploy to root domain)
+  // For GitHub Pages: Uncomment basePath and assetPrefix, and set output: "export"
+  // output: "export", // Only for static export (GitHub Pages)
   images: {
-    unoptimized: true, // Required for static export
     remotePatterns: [
       {
         protocol: 'https',
