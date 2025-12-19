@@ -92,7 +92,7 @@ export default function Contact() {
             Get In <span className="text-dark-900">Touch</span>
           </h2>
           <p className="text-lg text-dark-600 max-w-2xl mx-auto" style={{ lineHeight: '1.6' }}>
-            Ready to transform your data into intelligence? Let&apos;s start a conversation.
+            Ready to transform your data into intelligence? Let&#39;s start a conversation.
           </p>
         </motion.div>
 
@@ -181,7 +181,7 @@ export default function Contact() {
                 </button>
                 {isSubmitted && (
                   <p className="text-sm text-green-600 text-center">
-                    Thank you! We&apos;ll get back to you soon.
+                    Thank you! We&#39;ll get back to you soon.
                   </p>
                 )}
               </form>

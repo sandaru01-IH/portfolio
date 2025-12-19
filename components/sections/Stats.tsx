@@ -66,6 +66,7 @@ function AnimatedCounter({ value, suffix = '', duration = 2 }: AnimatedCounterPr
     }
 
     return () => {
+      // eslint-disable-next-line react-hooks/exhaustive-deps
       if (currentRef) {
         observer.unobserve(currentRef)
       }
