@@ -17,7 +17,7 @@ After creating the repository, run these commands (replace `YOUR_USERNAME` with 
 cd "E:\Work\Business\AlphaGrid\WEBSITE ALPHAGRID"
 
 # Add GitHub remote (replace YOUR_USERNAME and REPO_NAME)
-git remote add origin https://github.com/YOUR_USERNAME/alphagrid-website.git
+git remote add origin https://github.com/sandaru01-IH/portfolio.git
 
 # Rename branch to main (if needed)
 git branch -M main
@@ -33,10 +33,36 @@ git branch -M main
 git push -u origin main
 ```
 
-## After Publishing
-- Your partner can view the code at: `https://github.com/YOUR_USERNAME/alphagrid-website`
-- To deploy the site, consider using Vercel (recommended for Next.js):
-  1. Go to https://vercel.com
-  2. Import your GitHub repository
-  3. Deploy automatically!
+## Step 3: Enable GitHub Pages (IMPORTANT!)
+
+Your site has been deployed! Now enable GitHub Pages:
+
+1. Go to your repository: https://github.com/sandaru01-IH/portfolio
+2. Click on **Settings** (top menu)
+3. Scroll down to **Pages** (left sidebar)
+4. Under **Source**, select:
+   - **Branch**: `gh-pages`
+   - **Folder**: `/ (root)`
+5. Click **Save**
+6. Wait 1-2 minutes for GitHub to process
+
+## ✅ Your Live Site URL
+
+Once enabled, your site will be available at:
+
+**https://sandaru01-IH.github.io/portfolio/**
+
+This is the link you can share with your partner! 🎉
+
+## Future Updates
+
+To update your live site after making changes:
+
+```powershell
+npm run build
+npm run deploy
+git push
+```
+
+Then wait 1-2 minutes for GitHub Pages to update.
 
